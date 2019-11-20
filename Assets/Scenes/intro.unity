@@ -497,7 +497,6 @@ GameObject:
   - component: {fileID: 823011509}
   - component: {fileID: 823011508}
   - component: {fileID: 823011507}
-  - component: {fileID: 823011506}
   - component: {fileID: 823011505}
   - component: {fileID: 823011527}
   - component: {fileID: 823011526}
@@ -508,6 +507,9 @@ GameObject:
   - component: {fileID: 823011523}
   - component: {fileID: 823011530}
   - component: {fileID: 823011529}
+  - component: {fileID: 823011531}
+  - component: {fileID: 823011506}
+  - component: {fileID: 823011532}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -542,7 +544,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 823011493}
   selectedCommands:
-  - {fileID: 823011521}
+  - {fileID: 823011494}
   variables: []
   description: 
   stepPause: 0
@@ -615,6 +617,7 @@ MonoBehaviour:
   - {fileID: 823011518}
   - {fileID: 823011517}
   - {fileID: 823011516}
+  - {fileID: 823011532}
   - {fileID: 823011515}
   - {fileID: 823011497}
   - {fileID: 823011514}
@@ -760,6 +763,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 823011502}
+  - {fileID: 823011531}
+  - {fileID: 823011506}
   - {fileID: 823011501}
   - {fileID: 823011500}
 --- !u!114 &823011500
@@ -902,7 +907,6 @@ MonoBehaviour:
   - {fileID: 823011509}
   - {fileID: 823011508}
   - {fileID: 823011507}
-  - {fileID: 823011506}
   - {fileID: 823011505}
   - {fileID: 823011527}
   - {fileID: 823011526}
@@ -951,26 +955,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 27
+  itemId: 39
   indentLevel: 0
-  storyText: "Within a few weeks to be exact. I know we need more time but with our
-    limited resources, I am asking you two to submit your reports to me within the
-    month. \r\n"
-  description: 
-  character: {fileID: 224188017}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 0}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &823011507
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1371,7 +1367,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &823011522
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1400,7 +1396,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &823011523
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1528,7 +1524,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &823011528
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1556,7 +1552,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &823011529
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1584,7 +1580,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &823011530
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1610,6 +1606,55 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &823011531
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 0
+  duration: 5
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &823011532
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1103168992}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1feace8eda0018a4484631768b3e1c90, type: 3}
+  offset: 0
+  fromPosition: {fileID: 795341600}
+  toPosition: {fileID: 601984723}
+  facing: 1
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &884932604
 GameObject:
   m_ObjectHideFlags: 1
@@ -1890,8 +1935,9 @@ MonoBehaviour:
   nameText: Mary
   nameColor: {r: 0.5442628, g: 0.38768244, b: 0.8301887, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
+  portraits:
+  - {fileID: 21300000, guid: 1feace8eda0018a4484631768b3e1c90, type: 3}
+  portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
 --- !u!4 &1103168993
@@ -2201,7 +2247,7 @@ Transform:
   m_GameObject: {fileID: 2146611332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1824132844}
   m_Father: {fileID: 0}
