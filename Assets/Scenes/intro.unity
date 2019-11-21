@@ -475,21 +475,8 @@ GameObject:
   - component: {fileID: 823011492}
   - component: {fileID: 823011494}
   - component: {fileID: 823011521}
-  - component: {fileID: 823011518}
-  - component: {fileID: 823011517}
-  - component: {fileID: 823011520}
-  - component: {fileID: 823011519}
-  - component: {fileID: 823011515}
-  - component: {fileID: 823011516}
-  - component: {fileID: 823011497}
-  - component: {fileID: 823011514}
-  - component: {fileID: 823011513}
-  - component: {fileID: 823011512}
-  - component: {fileID: 823011511}
-  - component: {fileID: 823011503}
   - component: {fileID: 823011504}
   - component: {fileID: 823011499}
-  - component: {fileID: 823011498}
   - component: {fileID: 823011502}
   - component: {fileID: 823011501}
   - component: {fileID: 823011500}
@@ -503,13 +490,52 @@ GameObject:
   - component: {fileID: 823011525}
   - component: {fileID: 823011524}
   - component: {fileID: 823011528}
-  - component: {fileID: 823011522}
-  - component: {fileID: 823011523}
-  - component: {fileID: 823011530}
-  - component: {fileID: 823011529}
   - component: {fileID: 823011531}
-  - component: {fileID: 823011506}
+  - component: {fileID: 823011533}
+  - component: {fileID: 823011535}
+  - component: {fileID: 823011534}
+  - component: {fileID: 823011520}
+  - component: {fileID: 823011538}
+  - component: {fileID: 823011537}
+  - component: {fileID: 823011536}
   - component: {fileID: 823011532}
+  - component: {fileID: 823011519}
+  - component: {fileID: 823011518}
+  - component: {fileID: 823011517}
+  - component: {fileID: 823011497}
+  - component: {fileID: 823011547}
+  - component: {fileID: 823011546}
+  - component: {fileID: 823011545}
+  - component: {fileID: 823011544}
+  - component: {fileID: 823011543}
+  - component: {fileID: 823011542}
+  - component: {fileID: 823011541}
+  - component: {fileID: 823011503}
+  - component: {fileID: 823011540}
+  - component: {fileID: 823011539}
+  - component: {fileID: 823011516}
+  - component: {fileID: 823011515}
+  - component: {fileID: 823011514}
+  - component: {fileID: 823011513}
+  - component: {fileID: 823011512}
+  - component: {fileID: 823011498}
+  - component: {fileID: 823011511}
+  - component: {fileID: 823011550}
+  - component: {fileID: 823011549}
+  - component: {fileID: 823011522}
+  - component: {fileID: 823011548}
+  - component: {fileID: 823011530}
+  - component: {fileID: 823011558}
+  - component: {fileID: 823011557}
+  - component: {fileID: 823011556}
+  - component: {fileID: 823011555}
+  - component: {fileID: 823011554}
+  - component: {fileID: 823011553}
+  - component: {fileID: 823011552}
+  - component: {fileID: 823011551}
+  - component: {fileID: 823011529}
+  - component: {fileID: 823011523}
+  - component: {fileID: 823011506}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -530,11 +556,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -53, y: 70}
+  scrollPos: {x: -90.79931, y: -325.78763}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -542,9 +568,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 823011493}
-  selectedCommands:
-  - {fileID: 823011494}
+  - {fileID: 823011555}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -612,20 +637,8 @@ MonoBehaviour:
   - {fileID: 823011521}
   - {fileID: 823011494}
   - {fileID: 823011492}
-  - {fileID: 823011520}
-  - {fileID: 823011519}
-  - {fileID: 823011518}
-  - {fileID: 823011517}
-  - {fileID: 823011516}
-  - {fileID: 823011532}
-  - {fileID: 823011515}
-  - {fileID: 823011497}
-  - {fileID: 823011514}
-  - {fileID: 823011513}
-  - {fileID: 823011512}
-  - {fileID: 823011511}
-  - {fileID: 823011503}
-  - {fileID: 823011498}
+  - {fileID: 823011535}
+  - {fileID: 823011534}
 --- !u!114 &823011494
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -696,12 +709,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 10
+  itemId: 52
   indentLevel: 0
-  storyText: 'Ah Mary. You''re late. You can''t keep coming in late when we need you
-    to help! '
+  storyText: 'Mary comes in to view,striding in with confidence towards your professor
+    while casting shady glances at you. You both don''t have good history with one
+    another, as Mary''s snobbish behavior prevents you from forming a friendship with
+    them. She stands next to Feldspar, looking at them and never at you. '
   description: 
-  character: {fileID: 224188017}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -724,11 +739,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 19
+  itemId: 77
   indentLevel: 0
-  text: Catch these hands, plebian.
+  text: I'm gonna pretend I didn't hear that.
   description: 
-  targetBlock: {fileID: 823011499}
+  targetBlock: {fileID: 823011504}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -751,8 +766,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 118
-    y: 172
+    x: 52.909122
+    y: 523.59106
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -764,7 +779,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 823011502}
   - {fileID: 823011531}
-  - {fileID: 823011506}
   - {fileID: 823011501}
   - {fileID: 823011500}
 --- !u!114 &823011500
@@ -862,22 +876,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  text: I'm gonna pretend I didn't hear that.
+  nodeRect:
+    serializedVersion: 2
+    x: 145.52255
+    y: 352.29575
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 68
+  blockName: main 3
   description: 
-  targetBlock: {fileID: 823011504}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 823011516}
+  - {fileID: 823011515}
+  - {fileID: 823011514}
+  - {fileID: 823011513}
+  - {fileID: 823011512}
+  - {fileID: 823011498}
+  - {fileID: 823011511}
 --- !u!114 &823011504
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -892,8 +913,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 286
-    y: 176
+    x: 224.13617
+    y: 529.2727
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -913,10 +934,8 @@ MonoBehaviour:
   - {fileID: 823011525}
   - {fileID: 823011524}
   - {fileID: 823011528}
-  - {fileID: 823011523}
-  - {fileID: 823011522}
-  - {fileID: 823011530}
-  - {fileID: 823011529}
+  - {fileID: 823011550}
+  - {fileID: 823011548}
 --- !u!114 &823011505
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -955,18 +974,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 39
+  itemId: 101
   indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 0}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 823011555}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &823011507
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1087,26 +1106,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 14
+  itemId: 78
   indentLevel: 0
-  storyText: "I\u2019m working with world-class geologists to study the volcanic activity
-    on my family\u2019s private island, so that Daddy can build a new resort there.
-    Not that you\u2019d get it."
+  text: Catch these hands, plebian.
   description: 
-  character: {fileID: 1103168992}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 823011499}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &823011512
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1119,7 +1134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 13
+  itemId: 75
   indentLevel: 0
   storyText: "I\u2019m working with world-class geologists to study the volcanic activity
     on my family\u2019s private island, so that Daddy can build a new resort there.
@@ -1148,7 +1163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 12
+  itemId: 74
   indentLevel: 0
   storyText: "What\u2019s it about?\r\n"
   description: 
@@ -1175,7 +1190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 11
+  itemId: 73
   indentLevel: 0
   storyText: "Sorry! I've been up working on an extremely intricate research all night.
     It involves some VERY prestigious members of my daddy\u2019s scientific foundation,
@@ -1204,11 +1219,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 8
+  itemId: 72
   indentLevel: 0
-  storyText: Hello professor Feldspar.
+  storyText: 'Ah Mary. You''re late. You can''t keep coming in late when we need you
+    to help! '
   description: 
-  character: {fileID: 1103168992}
+  character: {fileID: 224188017}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1228,14 +1244,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 616cd37e21c7645c58a89edf5abee56f, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 9
+  itemId: 71
   indentLevel: 0
-  duration: 1
-  amount: {x: 1, y: 1}
-  waitUntilFinished: 0
+  storyText: Hello professor Feldspar.
+  description: 
+  character: {fileID: 1103168992}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &823011517
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1245,24 +1271,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 5
+  itemId: 51
   indentLevel: 0
-  storyText: "Good, no doubt that it will be pivotal to your research- \r\n"
-  description: 
-  character: {fileID: 224188017}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1103168992}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1feace8eda0018a4484631768b3e1c90, type: 3}
+  offset: 0
+  fromPosition: {fileID: 795341600}
+  toPosition: {fileID: 601984723}
+  facing: 1
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &823011518
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1272,25 +1301,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 616cd37e21c7645c58a89edf5abee56f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 4
+  itemId: 50
   indentLevel: 0
-  storyText: "Caleb and I will be making a radio device that'll read into the waves
-    in detail. \r\n"
-  description: 
-  character: {fileID: 1033166281}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  duration: 1
+  amount: {x: 1, y: 1}
+  waitUntilFinished: 0
 --- !u!114 &823011519
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1303,10 +1321,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 7
+  itemId: 49
   indentLevel: 0
-  storyText: "Correct! I understand that your friend has agreed to help you by fabricating
-    some sort of technology? \r\n"
+  storyText: "Good, no doubt that it will be pivotal to your research- \r\n"
   description: 
   character: {fileID: 224188017}
   portrait: {fileID: 0}
@@ -1328,25 +1345,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  storyText: "Yep, you need me to research about the weird radio waves emitting from
-    them. \r\n"
+  nodeRect:
+    serializedVersion: 2
+    x: 332.136
+    y: 160.89397
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 44
+  blockName: option 2
   description: 
-  character: {fileID: 1033166281}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 823011538}
+  - {fileID: 823011537}
 --- !u!114 &823011521
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1374,26 +1390,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 34
-  indentLevel: 0
-  storyText: "Thank you for being understanding and accommodating. If you need any
-    help with your research, please let me know and I will assist in any way I can.
-    I feel it's only fair after I've put you two in stressful situations. \r\n"
+  nodeRect:
+    serializedVersion: 2
+    x: 333.02252
+    y: 617.0682
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 82
+  blockName: agree
   description: 
-  character: {fileID: 224188017}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 823011530}
+  - {fileID: 823011506}
 --- !u!114 &823011523
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1403,24 +1417,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 35
+  itemId: 100
   indentLevel: 0
-  storyText: "Well we can't do anything about the timing now.\r\n"
-  description: 
-  character: {fileID: 1033166281}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 823011555}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &823011524
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1559,25 +1567,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 37
+  itemId: 99
   indentLevel: 0
-  storyText: "Now, I've taken enough of your time. I should leave you to your research.
-    Good luck with finding anything interesting about the emitted waves! \r\n"
-  description: 
-  character: {fileID: 224188017}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Caleb scene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &823011530
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1590,12 +1589,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 36
+  itemId: 84
   indentLevel: 0
-  storyText: "Now, I've taken enough of your time. I should leave you to your research.
-    Good luck with finding anything interesting about the emitted waves! \r\n"
+  storyText: "I\u2019m sure you did what you could do professor. \r\nI\u2019ll make
+    sure to work twice as hard for my research!\r\n"
   description: 
-  character: {fileID: 224188017}
+  character: {fileID: 1033166281}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1634,27 +1633,720 @@ MonoBehaviour:
   m_GameObject: {fileID: 823011490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 40
+  itemId: 48
   indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1103168992}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1feace8eda0018a4484631768b3e1c90, type: 3}
-  offset: 0
-  fromPosition: {fileID: 795341600}
-  toPosition: {fileID: 601984723}
-  facing: 1
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
+  storyText: "Caleb and I will be making a radio device that'll read into the waves
+    in detail. \r\n"
+  description: 
+  character: {fileID: 1033166281}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011533
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 138.95421
+    y: 213.16685
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 41
+  blockName: main 2
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 823011536}
+  - {fileID: 823011532}
+  - {fileID: 823011519}
+  - {fileID: 823011518}
+  - {fileID: 823011517}
+  - {fileID: 823011497}
+  - {fileID: 823011547}
+  - {fileID: 823011544}
+--- !u!114 &823011534
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  text: "I\u2019m sorry but I forgot! I couldn\u2019t think of what I needed to do
+    today while walking here!"
+  description: 
+  targetBlock: {fileID: 823011520}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &823011535
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  text: 'Yep, you need me to research about the weird radio waves emitting from them. '
+  description: 
+  targetBlock: {fileID: 823011533}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &823011536
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  storyText: "Correct! I understand that your friend has agreed to help you by fabricating
+    some sort of technology? \r\n"
+  description: 
+  character: {fileID: 224188017}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011537
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  storyText: "I promise to pay more attention next time!\r\n"
+  description: 
+  character: {fileID: 1033166281}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011538
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  indentLevel: 0
+  storyText: Please try to pay attention. I just need you to look over and study these
+    rocks for your research!
+  description: 
+  character: {fileID: 224188017}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011539
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 823011503}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &823011540
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 69
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 823011503}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &823011541
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  indentLevel: 0
+  storyText: "Mary saunters towards Professor Feldspar\r.\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011542
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 66
+  indentLevel: 0
+  storyText: "Mary simply looks at you with disdain and ignores you. She saunters
+    towards Professor Feldspar.\r\n\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011543
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 65
+  indentLevel: 0
+  storyText: "Hey Mary. . .\r\n"
+  description: 
+  character: {fileID: 1033166281}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011544
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  indentLevel: 0
+  text: "Don\u2019t say anything\r.\n"
+  description: 
+  targetBlock: {fileID: 823011545}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &823011545
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 277.5903
+    y: 280.21262
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 63
+  blockName: say nothing
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 823011541}
+  - {fileID: 823011539}
+--- !u!114 &823011546
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1.9549408
+    y: 275.6669
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 62
+  blockName: say hi
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 823011543}
+  - {fileID: 823011542}
+  - {fileID: 823011540}
+--- !u!114 &823011547
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  text: Say hi to Mary.
+  description: 
+  targetBlock: {fileID: 823011546}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &823011548
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 83
+  indentLevel: 0
+  text: Be agreeable
+  description: 
+  targetBlock: {fileID: 823011522}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &823011549
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 120.522606
+    y: 613.6591
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 81
+  blockName: disagree
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 823011558}
+  - {fileID: 823011557}
+  - {fileID: 823011556}
+  - {fileID: 823011523}
+--- !u!114 &823011550
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 80
+  indentLevel: 0
+  text: Be disagreeable
+  description: 
+  targetBlock: {fileID: 823011549}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &823011551
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 98
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
+--- !u!114 &823011552
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 97
+  indentLevel: 0
+  storyText: You leave to your station, with Caleb waiting for you.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011553
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 96
+  indentLevel: 0
+  storyText: "Now, I've taken enough of your time. I should leave you to your research.
+    Good luck with finding anything interesting about the emitted waves! \r\n"
+  description: 
+  character: {fileID: 224188017}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011554
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 95
+  indentLevel: 0
+  storyText: "Thank you for being understanding and accommodating. If you need any
+    help with your research, please let me know and I will assist in any way I can.
+    I feel it's only fair after I've put you two in stressful situations. \r\n"
+  description: 
+  character: {fileID: 224188017}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011555
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 242.11346
+    y: 706.8409
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 94
+  blockName: end
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 823011554}
+  - {fileID: 823011553}
+  - {fileID: 823011552}
+  - {fileID: 823011551}
+  - {fileID: 823011529}
+--- !u!114 &823011556
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 93
+  indentLevel: 0
+  storyText: "Thanks, professor. I\u2019ll see what I can do in such short notice.\r\n\n"
+  description: 
+  character: {fileID: 1033166281}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011557
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 92
+  indentLevel: 0
+  storyText: "I truly am sorry! I wish situations are different, but funding is hard
+    to come by and the department can only do so much. If you need help, please let
+    me know. It\u2019s only fair.\r\n"
+  description: 
+  character: {fileID: 224188017}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &823011558
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823011490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  indentLevel: 0
+  storyText: "How will I finish my research in such a short notice? Isn\u2019t that
+    impossible?\r\n"
+  description: 
+  character: {fileID: 1033166281}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &884932604
 GameObject:
   m_ObjectHideFlags: 1
