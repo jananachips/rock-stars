@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Granite2.unity
+=======
+- path: Assets/Scenes/Slate route 3.unity
+>>>>>>> 51bc890b6d769e5efdf4208dcc811c509e4725cb
   isLoaded: 1
   isActive: 1
