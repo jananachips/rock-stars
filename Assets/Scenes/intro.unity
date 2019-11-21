@@ -217,8 +217,8 @@ MonoBehaviour:
   nameColor: {r: 0.6792453, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 3359c3b1d5cb3e94097d65a5d0333924, type: 3}
-  - {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  - {fileID: 21300000, guid: 738dc5c4678af104cbfee7eb3794dab4, type: 3}
+  - {fileID: 21300000, guid: 4e0b33e20899e5d4295ed200b86701f2, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 0}
   description: 
@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -98.24609, y: -371.53226}
+  scrollPos: {x: -72.71416, y: 80.595436}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -569,9 +569,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 823011504}
+  - {fileID: 823011493}
   selectedCommands:
-  - {fileID: 823011559}
+  - {fileID: 823011521}
   variables: []
   description: 
   stepPause: 0
