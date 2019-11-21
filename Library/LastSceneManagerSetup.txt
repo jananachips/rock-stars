@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Caleb time.unity
+- path: Assets/Scenes/Granite2.unity
   isLoaded: 1
   isActive: 1
